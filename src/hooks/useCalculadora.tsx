@@ -16,6 +16,8 @@ export const useCalculadora = () => {
         setNumeroAnterior('0')
     }
 
+    // Factorizar este código para no tener tantos else if
+
     const armarNumero = (numeroTexto: string) => {
         // no aceptar doble punto
         if (numero.includes('.') && numeroTexto === '.') return
